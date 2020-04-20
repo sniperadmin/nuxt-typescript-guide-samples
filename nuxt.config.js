@@ -2,6 +2,19 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'universal',
+  router: {
+    base: '/nuxt-typescript-guide-samples'
+  },
+  generate: {
+    routes: [
+      '/',
+      '/profile',
+      '/test',
+      '/store',
+      '/phone',
+      '/laptop'
+    ]
+  },
   /*
   ** Headers of the page
   */
