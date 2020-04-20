@@ -11,7 +11,8 @@
     "start": "nuxt-ts start",
     "test": "jest",
     "lint": "eslint --ext .ts,.js,.vue .",
-    "generate-types": "graphql-codegen --config codegen.yml"
+    "generate-types": "graphql-codegen --config codegen.yml",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
